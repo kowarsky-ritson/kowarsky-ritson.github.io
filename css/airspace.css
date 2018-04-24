@@ -229,6 +229,9 @@ font header .navbar-default .navbar-nav li a:hover {
   text-overflow: clip ellipsis;
   /* transition-delay: 500ms; */
   transition-duration: 500ms;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-fill-mode: both;
 }
 #service .service-item:hover {
   border-width: 1px;
