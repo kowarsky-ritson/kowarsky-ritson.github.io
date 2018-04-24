@@ -47,7 +47,7 @@ h6 {
   font-family: "HKGrotesk-Light";
 }
 h2 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
 }
 h3 {
@@ -55,7 +55,7 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
 }
 ul {
@@ -69,12 +69,15 @@ a:focus,
 a:active {
   text-decoration: none !important;
 }
+a {
+  /* color: rgb(42, 59, 142); */
+}
 .section-title {
   margin-bottom: 70px;
 }
 .section-title h2 {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 16px;
   /* font-weight: 600; */
 }
 .section-title p {
@@ -93,7 +96,7 @@ header .navbar {
   margin-bottom: 0px;
   border: 0px;
   font-family: "HKGrotesk-Bold";
-  font-size: 14px;
+  font-size: 12px;
 }
 header .navbar-brand {
   padding-top: 0px;
@@ -161,7 +164,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 30px;
   font-family: "HKGrotesk-Light";
   font-weight: 300;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
 }
 #slider .btn-view-works {
   background: transparent;
@@ -224,6 +227,14 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 15px;
   overflow: hidden;
   text-overflow: clip ellipsis;
+  /* transition-delay: 500ms; */
+  transition-duration: 500ms;
+}
+#service .service-item:hover {
+  border-width: 1px;
+  box-shadow: none;
+  /* transition-delay: 500ms; */
+  transition-duration: 500ms;
 }
 #service .service-item a {
   position: absolute;
@@ -247,7 +258,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
   margin: 0;
   color: #000;
-  font-size: 14px;
+  font-size: 12px;
   font-family: "HKGrotesk-Bold";
   text-transform: uppercase;
 }
@@ -756,7 +767,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #contact-form .block h2 {
   font-family: "HKGrotesk-Bold";
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 #contact-form .block form .form-group {
