@@ -36,22 +36,6 @@
   </url>
   
   <url>
-    <loc>/people/eoin-logan/</loc>
-  </url>
-  
-  <url>
-    <loc>/people/ori-kowarsky/</loc>
-  </url>
-  
-  <url>
-    <loc>/people/pei-yeh/</loc>
-  </url>
-  
-  <url>
-    <loc>/people/richard-ritson/</loc>
-  </url>
-  
-  <url>
     <loc>/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
@@ -72,6 +56,10 @@
   
   <url>
     <loc>/services/entertainment-law/</loc>
+  </url>
+  
+  <url>
+    <loc>/people/eoin-logan/</loc>
   </url>
   
   <url>
@@ -119,7 +107,15 @@
   </url>
   
   <url>
+    <loc>/people/ori-kowarsky/</loc>
+  </url>
+  
+  <url>
     <loc>/services/</loc>
+  </url>
+  
+  <url>
+    <loc>/people/pei-yeh/</loc>
   </url>
   
   <url>
@@ -142,6 +138,10 @@
   
   <url>
     <loc>/services/real-estate-law/</loc>
+  </url>
+  
+  <url>
+    <loc>/people/richard-ritson/</loc>
   </url>
   
   <url>
