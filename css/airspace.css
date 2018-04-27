@@ -302,28 +302,46 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #people {
   text-align: center;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 }
 #people .people-intro {
   padding: 20px 0 40px;
 }
-#people .people-item {
+#people .people-lawyers {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+#people .people-staff {
+  padding-top: 60px;
   padding-bottom: 30px;
-  box-shadow:0 8px 31px 0 rgba(0, 0, 0, .1);
-  width: 100%;
+  background-color: #DDDD;
+  animation-name: fadeInUp;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+#people .people-item {
+  background-color: #FFF;
   padding: 15px 35px 35px 35px;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+  /*
+  box-shadow:0 8px 31px 0 rgba(0, 0, 0, .1);
   border-color: rgba(0, 0, 0, 0.1);
   border-width: 1px;
   border-style: solid;
-  margin-bottom: 15px;
-  margin-top: 15px;
   overflow: hidden;
   text-overflow: clip ellipsis;
-  /* transition-delay: 500ms; */
+  transition-delay: 500ms;
   transition-duration: 500ms;
   animation-name: fadeIn;
   animation-duration: 3s;
   animation-fill-mode: both;
+  */
 }
 #people .people-item:hover {
   border-width: 1px;
@@ -344,7 +362,7 @@ font header .navbar-default .navbar-nav li a:hover {
   filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
 #people .people-item img {
-  width: 100%;
+  /* width: 400px; */
   height: 400px;
 }
 #people .people-item h4 {
@@ -356,7 +374,7 @@ font header .navbar-default .navbar-nav li a:hover {
   text-transform: uppercase;
 }
 #people .people-item h6 {
-  padding-top: 20px;
+  padding-top: 10px;
   margin: 0;
   color: #000;
   font-size: 12px;
