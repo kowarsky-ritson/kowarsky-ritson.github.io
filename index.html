@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="/css/style.css" />
 <link rel="stylesheet" href="/css/ionicons.min.css" />
 <link rel="stylesheet" href="/css/themify-icons.css" />
-<link rel="stylesheet" href="/css/animate.css" />
+<link rel="stylesheet" href="/css/aos.css" />
 <link rel="stylesheet" href="/css/responsive.css" />
 <link rel="stylesheet" href="/css/syntax.css" />
 
@@ -32,7 +32,6 @@
 <script src="/js/plugins.js"></script>
 <script src="/js/min/waypoints.min.js"></script>
 <script src="/js/jquery.counterup.js"></script>
-
 
 <script src="/js/main.js"></script>
 
@@ -96,21 +95,30 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-          <h1 class="slogan-title">Kowarsky Ritson LLP</h1>
-          <p class="slogan-subtitle">Rise Above</p>
+        <h1 data-aos="fade-up" class="slogan-title">Kowarsky Ritson LLP</h1>
+        <h2 data-aos="fade-up" class="slogan-subtitle">and its team of lawyers</h2>
       </div>
+        <div class="col-md-4 col-sm-6 col-xs-8">
+          <p data-aos="fade-up" class="slogan-paragraph">
+            have provided legal services to the Vancouver and Lower Mainland community for over 50 years in a wide range of legal
+            areas.
+            
+            
+            
+          </p>
+        </div>
     </div>
   </div>
 </section>
-<div id="company-before"/>
+<div id="company-before"></div>
 <section id="company">
   <div class="container">
     <div class="row">
       
       <div class="col-md-4 col-sm-6 col-xs-8">
-        <div class="block">
-          <h1 class="animated fadeInUp text-uppercase"></h1>
-          <p class="animated fadeInUp">Kowarsky Ritson LLP and its team of lawyers have provided legal services to the Vancouver and Lower Mainland community for over 50 years in a wide range of legal areas.
+        <div data-aos="fade-right" class="block">
+          <h1 class="text-uppercase"></h1>
+          <p class="">Kowarsky Ritson LLP and its team of lawyers have provided legal services to the Vancouver and Lower Mainland community for over 50 years in a wide range of legal areas.
             
             <a href="/services">Learn more</a>
             
@@ -128,7 +136,7 @@
 <section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-md-offset-3 col-md-7 col-sm-offset-3 col-sm-7 col-xs-offset-3 col-xs-7">
+      <div data-aos="flip-left" class="col-md-offset-3 col-md-7 col-sm-offset-3 col-sm-7 col-xs-offset-3 col-xs-7">
         <div class="block">
           <div class="section-title">
             <h2>We aim to deliver</h2>
@@ -148,7 +156,7 @@
 		<section id="feature">
 <div class="container">
   <div class="row">
-    <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-6 col-xs-offset-6">
+    <div data-aos="fade-left" class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-6 col-xs-offset-6">
       <h2 class="text-uppercase"></h2>
       <div>
       	We look forward to serving the Vancouver area for many more years to come as the lawyers of choice!
@@ -171,12 +179,23 @@
             
           </ul>
         </div>
+        <p>Please note that this site does <u>not</u> use cookies to track its visitor information.</p>
+        <p>Kowarsky Ritson LLP provides legal services through its limited liability partnership.</p>
         <p>Copyright &copy 2018 Kowarsky Ritson LLP. All rights reserved.</p>
-        
       </div>
     </div>
   </div>
 </footer>
+
+<script src="/js/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 120,
+    duration: 1000,
+    easing: 'ease-in-out-back',
+    delay: 0,
+  });
+</script>
 
 
 </body>
