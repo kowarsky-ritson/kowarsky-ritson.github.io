@@ -54,14 +54,20 @@ h3 {
   font-size: 28px;
   font-weight: 300;
 }
+h4 {
+  /* font-family: "HKGrotesk-Bold"; */
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 800;
+}
 p {
   font-size: 16px;
   line-height: 28px;
 }
 ul {
-  padding: 0;
+  padding-left: 20px;
   margin: 0;
-  list-style: none;
+  list-style: circle;
 }
 a,
 a:active,
@@ -168,7 +174,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 @media (max-width: 767px) {
   #slider .video-bg {
-    background: url('../img/video-bg.png') center center / cover no-repeat;
+    background: url('../img/video-bg.png') center top / cover no-repeat;
   }
 
   #slider .video {
@@ -200,7 +206,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #slogan {
   /* padding-top: 300px; */
   /* padding-bottom: 600px; */
-  position: relative;
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  
+  /* position: relative; */
   width: 100%;
   height: 100%;
 }
@@ -209,11 +219,25 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 40px;
   color: #fff;
 }
+#slogan .slogan-title img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 100%;
+}
 #slogan .slogan-subtitle {
   font-family: "HKGrotesk-Bold";
   font-size: 40px;
   color: #fff;
   /* padding: 25px 0 25px 0; */
+}
+#slogan .slogan-subtitle img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 100%;
 }
 #slogan .slogan-paragraph {
   font-family: "HKGrotesk-Regular";
@@ -223,7 +247,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #company-before {
   background-color: #fff;
-  padding: 25px 0;
+  padding: 50px 0;
 }
 #company {
   padding: 100px 0;
@@ -465,6 +489,14 @@ font header .navbar-default .navbar-nav li a:hover {
   /* transform: translateY(-3%); */
   vertical-align: middle;
 }
+.service-single-text {
+  font-size: 16px;
+  line-height: 28px;
+}
+.service-single-list > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 #people {
   text-align: center;
@@ -516,7 +548,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%; 
   object-fit: contain;
-  min-height: 424px;
+  /* min-height: 424px; */
   
   padding: 10px;
   border-style: solid;
@@ -580,8 +612,12 @@ font header .navbar-default .navbar-nav li a:hover {
   border-radius: 10%;
 }
 
+#key-contacts .people-item-thumb {
+  padding-bottom: 30px;
+}
+
 #key-contacts .people-item-thumb h4 {
-  padding-top: 20px;
+  padding-top: 15px;
   margin: 0;
   color: #000;
   font-size: 12px;
@@ -775,8 +811,18 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 100%;
   position: relative;
   background-attachment: fixed;
-  background-position: center;
-
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  #global-header {
+    background-size: auto;
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
 }
 .global-header {
   background: url("../img/home-bg.jpg") no-repeat;
@@ -1130,7 +1176,6 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  /* font-family: 'Open Sans', sans-serif; */
   font-weight: 300;
   color: #000;
   font-size: 28px;
@@ -1177,11 +1222,14 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	footer Start
 --*/
+main {
+  padding-bottom: 50px;
+}
 footer {
   background: #F5F5F5;
   text-align: center;
   padding-top: 0px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 footer p {
   font-size: 13px;
@@ -1209,4 +1257,118 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+footer .cookie-msg-wrapper {
+  display: flex;
+  position: fixed;
+  padding: 0 40px;
+  bottom: 0;
+  left: 0;
+  height: 42px;
+  width: 100%;
+  background-color: #EFEFEF;
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .cookie-msg {
+  font-family: "HKGrotesk-Regular";
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+footer .cookie-close {
+  cursor: pointer;
+  vertical-align: baseline;
+  color: #999;
+}
+
+#sections {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #fff;
+}
+
+
+#section-01 {
+  /* padding-top: 25px; */
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+#section-01 .block p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "HKGrotesk-Light";
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 50px;
+}
+@media (min-width: 992px) {
+  #section-01 .block p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "HKGrotesk-Light";
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
+#section-01 .section-img img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+#section-02 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+#section-02 .block h2 {
+  padding-bottom: 15px;
+  line-height: 27px;
+  margin: 0;
+  text-transform: none;
+}
+#section-02 .block p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "HKGrotesk-Light";
+  font-weight: 300;
+  margin: 0;
+}
+#section-02 .section-img img {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) {
+  #section-02 .section-img img {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -150px;
+  }
+}
+
+#section-03 {
+  padding-top: 25px;
+  /* padding-bottom: 25px; */
+  width: 100%;
+}
+#section-03 .block p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "HKGrotesk-Light";
+  font-weight: 300;
+  margin: 0;
+}
+#section-03 .section-img img {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

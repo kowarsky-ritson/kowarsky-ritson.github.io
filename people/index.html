@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>People</title>
+<title>Our People</title>
 
 <meta name="generator" content="Hugo 0.48" />
 
@@ -58,7 +58,7 @@
             <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-              <img src="/img/logo.png" alt="People Logo">
+              <img src="/img/logo.png" alt="Our People Logo">
             </a>
           </div>
             
@@ -66,11 +66,17 @@
               <ul class="nav navbar-nav navbar-right">
                 
               
-                <li><a href="/people/">People</a></li>
+                <li data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="0">
+                  <a href="/people/">People</a>
+                </li>
               
-                <li><a href="/services/">Services</a></li>
+                <li data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="150">
+                  <a href="/services/">Services</a>
+                </li>
               
-                <li><a href="/contact/">Contact</a></li>
+                <li data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="300">
+                  <a href="/contact/">Contact</a>
+                </li>
               
               </ul>
             </div>
@@ -89,7 +95,7 @@
     <div class="row">
       <div class="col-md-12 col-sm-12 col-12">
         <div class="block">
-          <h1>People</h1>
+          <h1>Our People</h1>
           <p></p>
         </div>
       </div>
@@ -276,7 +282,7 @@
                   
                   
                   
-                  <img src="/people/joselina-silva/images/joselina-silva_hub37e689c390f88fe13f9c0628450ef64_19507196_290x0_resize_q75_box.jpg">
+                  <img src="/people/joselina-silva/images/joselina-silva_hu41a43cea7128cee28df8ac5ab6bddc8e_100447_290x0_resize_q75_box.jpg">
                   
                   
                   <h4>Joselina Silva</h4>
@@ -298,7 +304,7 @@
                   
                   
                   
-                  <img src="/people/lagrimas-tamayao/images/lagrimas-tamayao_hu745d8abe8dd5f7dd891aa41fc131b4cb_26904751_290x0_resize_q75_box.jpg">
+                  <img src="/people/lagrimas-tamayao/images/lagrimas-tamayao_hue09c7ccb12627b39c4ec7e9f5ad6810a_110187_290x0_resize_q75_box.jpg">
                   
                   
                   <h4>Lagrimas Tamayao</h4>
@@ -323,13 +329,23 @@
             
           </ul>
         </div>
-        <p>Please note that this site does <u>not</u> use cookies to track its visitor information.</p>
-        <p>Kowarsky Ritson LLP provides legal services through its limited liability partnership.</p>
+        <p>The law firm of Kowarsky Ritson LLP is a Limited Liability Partnership offering legal services in British Columbia,
+        Canada.</p>
         <p>Copyright &copy 2018 Kowarsky Ritson LLP. All rights reserved.</p>
       </div>
     </div>
   </div>
+  <div id="cookie" class="cookie-msg-wrapper">
+    <div class="cookie-msg">
+      <p>Please note that this site does <u>not</u> use cookies to track its visitor information.</p>
+    </div>
+    <div class="cookie-close" onclick="cookieCloseEvent();">
+      <i class="fa fa-times"></i>
+    </div>
+  </div>
 </footer>
+
+
 
 <script src="/js/aos.js"></script>
 <script>
@@ -339,6 +355,13 @@
     easing: 'ease-in-out-back',
     delay: 0,
   });
+</script>
+
+
+<script>
+  function cookieCloseEvent() {
+    document.getElementById('cookie').remove();
+  }
 </script>
 
 

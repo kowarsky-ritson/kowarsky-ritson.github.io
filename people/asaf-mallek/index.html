@@ -66,11 +66,17 @@
               <ul class="nav navbar-nav navbar-right">
                 
               
-                <li><a href="/people/">People</a></li>
+                <li data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="0">
+                  <a href="/people/">People</a>
+                </li>
               
-                <li><a href="/services/">Services</a></li>
+                <li data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="150">
+                  <a href="/services/">Services</a>
+                </li>
               
-                <li><a href="/contact/">Contact</a></li>
+                <li data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="300">
+                  <a href="/contact/">Contact</a>
+                </li>
               
               </ul>
             </div>
@@ -116,13 +122,25 @@
         </ul>
         
         <div class="people-content">
-          <p>Asaf has a wide-ranging litigation practice and has appeared on behalf of his clients before the BC Court of Appeal, the BC Supreme Court, Bankruptcy Court, the BC Provincial Court, Workers&rsquo; Compensation Appeal Tribunal (WCAT), WorkSafeBC, and the BC Human Rights Tribunal. He has experience in a wide range of legal matters ranging from commercial litigation to family law to administrative and tribunal law.</p>
+          
 
-<p>He received a Master of Laws with Commendation from City, University of London (2011), a Bachelor of Laws with Honours from Cardiff University (2009), and a Bachelor of Arts from University of British Columbia (2000).</p>
+<p>Asaf has a broad litigation practice and has appeared on behalf of his clients before the BC Court of Appeal, the BC Supreme Court, Bankruptcy Court, the BC Provincial Court, Workers&rsquo; Compensation Appeal Tribunal (WCAT), WorkSafeBC, and the BC Human Rights Tribunal. He has experience in a wide range of legal matters, from commercial litigation to family law to administrative and tribunal law.</p>
 
-<p>Asaf was called or admitted as a lawyer in British Columbia (2016), England and Wales (2013), and the State of New York (2011).</p>
+<p>Prior to joining Kowarsky Ritson LLP in 2016, Asaf lived for a time in London, England and worked for British and American law firms. Asaf is called or admitted as a lawyer in British Columbia (2016), England and Wales (2013), and the State of New York (2011).</p>
+
+<p>Clients find Asaf approachable and attentive to their needs. He is skilled at translating complex issues into straightforward concepts. Prior to pursuing law, he worked as a line cook, a farmer, and spent a few years in the military.</p>
+
+<p>Asaf received a Master of Laws with Commendation from City, University of London (2011), a Degree of an Utter Barrister from Gray’s Inn (2010), a Bachelor of Laws with Honours from Cardiff University (2009), a Post-graduate TEFL Certificate (2001), and a Bachelor of Arts from University of British Columbia (2000).</p>
 
 <p>His interests include cooking and assorted adventures with his wife and child.</p>
+
+<h4 id="reported-appeal-cases">Reported Appeal Cases:</h4>
+
+<ul>
+<li>A1703744 (BC WCAT) 2018.08.27 (appeared on behalf of the employer)</li>
+<li>Grandmaison v. Berkenbos, 2018 BCSC 1329</li>
+<li>McClement v. McClement, 2017 BCCA 416</li>
+</ul>
 
         </div>
       </div>
@@ -139,13 +157,23 @@
             
           </ul>
         </div>
-        <p>Please note that this site does <u>not</u> use cookies to track its visitor information.</p>
-        <p>Kowarsky Ritson LLP provides legal services through its limited liability partnership.</p>
+        <p>The law firm of Kowarsky Ritson LLP is a Limited Liability Partnership offering legal services in British Columbia,
+        Canada.</p>
         <p>Copyright &copy 2018 Kowarsky Ritson LLP. All rights reserved.</p>
       </div>
     </div>
   </div>
+  <div id="cookie" class="cookie-msg-wrapper">
+    <div class="cookie-msg">
+      <p>Please note that this site does <u>not</u> use cookies to track its visitor information.</p>
+    </div>
+    <div class="cookie-close" onclick="cookieCloseEvent();">
+      <i class="fa fa-times"></i>
+    </div>
+  </div>
 </footer>
+
+
 
 <script src="/js/aos.js"></script>
 <script>
@@ -155,6 +183,13 @@
     easing: 'ease-in-out-back',
     delay: 0,
   });
+</script>
+
+
+<script>
+  function cookieCloseEvent() {
+    document.getElementById('cookie').remove();
+  }
 </script>
 
 </body>
