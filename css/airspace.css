@@ -68,7 +68,6 @@ ul {
   padding-left: 20px;
   margin: 0;
   list-style: circle;
-  padding-bottom: 20px;
 }
 a,
 a:active,
@@ -378,8 +377,29 @@ font header .navbar-default .navbar-nav li a:hover {
   /* animation-name: fadeIn; */
   /* animation-duration: 3s; */
   /* animation-fill-mode: both; */
-  min-height: 380px;
+  /* min-height: 380px; */
 }
+@media(max-width:767px){
+  #service .service-item {
+
+  }
+}
+@media(min-width:768px){
+  #service .service-item {
+    min-height: 523px;
+  }
+}
+@media(min-width:992px){
+  #service .service-item {
+    min-height: 405px;
+  }
+}
+@media(min-width:1200px){
+  #service .service-item {
+    min-height: 380px;
+  }
+}
+
 #service .service-item:hover {
   /* background-color: #EEE; */
   border-color: #888;
@@ -593,6 +613,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .people-address-block {
   margin-bottom: 30px;
+}
+
+.people-content ul {
+  padding-bottom: 20px;
 }
 
 #key-contacts .key-contacts-header {
