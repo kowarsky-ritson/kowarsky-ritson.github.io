@@ -204,10 +204,10 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;*/
 }
 #slogan {
-  /* padding-top: 300px; */
-  /* padding-bottom: 600px; */
-  position: absolute;
-  top: 30%;
+  padding-bottom: 50px;
+  position: relative;
+  /* position: absolute; */
+  /* top: 30%; */
   z-index: 10;
   
   /* position: relative; */
@@ -245,6 +245,40 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   padding: 50px 0 25px 0;
 }
+
+@media(max-width:767px){
+  #slogan .slogan-subtitle img {
+    width: 100%;
+  }
+  #slogan .slogan-title img {
+    width: 30%;
+  }
+}
+@media(min-width:768px){
+  #slogan .slogan-subtitle img {
+    width: 75%;
+  }
+  #slogan .slogan-title img {
+    width: 25%;
+  }
+}
+@media(min-width:992px){
+  #slogan .slogan-subtitle img {
+    width: 65%;
+  }
+  #slogan .slogan-title img {
+    width: 20%;
+  }
+}
+@media(min-width:1200px){
+  #slogan .slogan-subtitle img {
+    width: 60%;
+  }
+  #slogan .slogan-title img {
+    width: 15%;
+  }
+}
+
 #company-before {
   background-color: #fff;
   padding: 50px 0;
